@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
+import { Link } from 'react-router-dom';
 
 const GsapFromTo = () => {
   useGSAP(() => {
@@ -25,7 +26,9 @@ const GsapFromTo = () => {
   return (
     <>
       <div className="mt-20">
+        <h2>Gsap FromTo </h2>
         <div id="red-box" className="w-20 h-20 bg-red-500 rounded-lg" />
+        <Link to="/">Back to Main page</Link>
       </div>
     </>
   );
