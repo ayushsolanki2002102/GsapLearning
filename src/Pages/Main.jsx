@@ -39,6 +39,14 @@ export default function Main() {
               GsapTimeLine
             </Link>
           </li>
+          <li>
+            <Link
+              to="/gsap-stagger"
+              className="block w-full py-2 px-4 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-purple-600 transition duration-300"
+            >
+              GsapStagger
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

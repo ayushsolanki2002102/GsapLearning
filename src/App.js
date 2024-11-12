@@ -5,6 +5,7 @@ import GsapTo from "./Pages/GsapTo";
 import GsapFrom from "./Pages/GsapFrom";
 import GsapFromTo from "./Pages/GsapFromTo";
 import GsapTimeLine from "./Pages/GsapTimeLine";
+import GsapStagger from "./Pages/GsapStagger";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/gsap-from" element={<GsapFrom />} />
         <Route path="/gsap-from-to" element={<GsapFromTo />} />
         <Route path="/gsap-time-line" element={<GsapTimeLine/>}/>
+        <Route path="/gsap-stagger" element={<GsapStagger/>}/>
       </Routes>
     </Router>
   );
